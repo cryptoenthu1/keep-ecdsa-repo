@@ -60,13 +60,13 @@ echo '# This address might change and need to be replaced from time to time' >> 
 echo '# if it does, the new contract address will be listed here:' >> $HOME/keep-ecdsa/config/config.toml
 echo '# https://github.com/keep-network/keep-ecdsa/blob/master/docs/run-keep-ecdsa.adoc' >> $HOME/keep-ecdsa/config/config.toml
 echo '[ethereum.ContractAddresses]' >> $HOME/keep-ecdsa/config/config.toml
-echo '  BondedECDSAKeepFactory = "0xe7BF8421fBE80c3Bf67082370D86C8D81D1D77F4"' >> $HOME/keep-ecdsa/config/config.toml
+echo '  BondedECDSAKeepFactory = "0xb37c8696cD023c11357B37b5b12A9884c9C83784"' >> $HOME/keep-ecdsa/config/config.toml
 echo '# This addresses might change and need to be replaced from time to time' >> $HOME/keep-ecdsa/config/config.toml
 echo '# if it does, the new contract address will be listed here:' >> $HOME/keep-ecdsa/config/config.toml
 echo '# https://github.com/keep-network/keep-ecdsa/blob/master/docs/run-keep-ecdsa.adoc' >> $HOME/keep-ecdsa/config/config.toml
 echo '# Addresses of applications approved by the operator.' >> $HOME/keep-ecdsa/config/config.toml
 echo '[SanctionedApplications]' >> $HOME/keep-ecdsa/config/config.toml
-echo '  Addresses = ["0x14dC06F762E7f4a756825c1A1dA569b3180153cB",]' >> $HOME/keep-ecdsa/config/config.toml
+echo '  Addresses = ["0x9F3B3bCED0AFfe862D436CB8FF462a454040Af80",]' >> $HOME/keep-ecdsa/config/config.toml
 echo '[Storage]' >> $HOME/keep-ecdsa/config/config.toml
 echo '  DataDir = "/mnt/keep-ecdsa/persistence"' >> $HOME/keep-ecdsa/config/config.toml
 echo '[LibP2P]' >> $HOME/keep-ecdsa/config/config.toml
